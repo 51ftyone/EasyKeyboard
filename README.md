@@ -10,11 +10,11 @@ This script lets you do this: ![the new layout](https://tonsky.me/blog/cursor-ke
 Instead of this: ![the old layout](https://tonsky.me/blog/cursor-keys/far_away.png " ")
 
 ### How do I install it?
-*Download and install [AutoHotKey](https://www.autohotkey.com/) 
-*Download the script file and add it to your startup folder to make it run automatically.
+* Download and install [AutoHotKey](https://www.autohotkey.com/) 
+* Download the script file and add it to your startup folder to make it run automatically.
 
 Or
-*Download the .exe file and add it to your startup folder.
+* Download the .exe file and add it to your startup folder.
 
 ### Shortcuts
 * CapsLock + I = ↑
