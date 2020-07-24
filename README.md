@@ -1,5 +1,6 @@
 # EasyKeyboard
-A set of custom keyboard shortcuts to ensure you never need to leave the home row
+A set of custom keyboard shortcuts to ensure you never need to leave the home row.
+The inspired by this [blog post](https://tonsky.me/blog/cursor-keys/)
 
 ### What's the point?
 I'm glad you asked. The [QWERTY](https://en.wikipedia.org/wiki/QWERTY#History) keyboard has been around scince the 1870s. It was designed for machines that didn't even use electricity. With your hands on the home row you can easily acces all the letters of the alphabet. But what about the cursor keys? On the keyboard the cursors are far from the home row making it hard to get to them. This small script allows you to put the cursor keys where they belong **the middle of the keyboard**
@@ -9,8 +10,11 @@ This script lets you do this: ![the new layout](https://tonsky.me/blog/cursor-ke
 Instead of this: ![the old layout](https://tonsky.me/blog/cursor-keys/far_away.png " ")
 
 ### How do I install it?
-Download [AutoHotKey](https://www.autohotkey.com/) and then download the script file and run it or add it to your startup folder to make it run automatically.
-You could also use the .exe file and add it to your startup folder.
+*Download and install [AutoHotKey](https://www.autohotkey.com/) 
+*Download the script file and add it to your startup folder to make it run automatically.
+
+Or
+*Download the .exe file and add it to your startup folder.
 
 ### Shortcuts
 * CapsLock + I = ↑
@@ -19,6 +23,4 @@ You could also use the .exe file and add it to your startup folder.
 * CapsLock + L = →
 * CapsLock + H = Backspace
 * RightAlt = Ctrl
-
-The idea for this came from a [blog post](https://tonsky.me/blog/cursor-keys/)
 If you want to suggest a new shortcut please open an issue.
