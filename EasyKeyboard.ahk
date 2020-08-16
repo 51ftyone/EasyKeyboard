@@ -1,14 +1,20 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+/*
+Easy keyboard
+An autohotkey script for touch typists who hate mice
+*/
 
-SetCapsLockState, AlwaysOff
+SendMode Input
+SetCapsLockState, AlwaysOff ;No more CapsLock for you
 
-CapsLock & j::Send, {blind}{Left}
-CapsLock & k::Send, {blind}{Down}
-CapsLock & l::Send, {blind}{Right}
-CapsLock & i::Send, {blind}{Up}
+;arrow keys
+CapsLock & i::Send, {blind}{Up} ;CapsLock + i = up
+CapsLock & k::Send, {blind}{Down} ;CapsLock + k = down
+CapsLock & j::Send, {blind}{Left} ;CapsLock + j = left
+CapsLock & l::Send, {blind}{Right} ;CapsLock + l = right
+
+;extras
 CapsLock & h::Send, {blind}{Backspace}
 CapsLock & Space::Send, {blind}{Enter}
-RAlt::Ctrl
+RAlt::Ctrl ;you can use your thumb for shortcuts
+RCtrl::Alt
+CapsLock & x::ExitApp,
