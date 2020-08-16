@@ -11,10 +11,12 @@ Instead of this: ![the old layout](https://tonsky.me/blog/cursor-keys/far_away.p
 
 ### How do I install it?
 * Download and install [AutoHotKey](https://www.autohotkey.com/) 
-* Download the script file and add it to your startup folder to make it run automatically.
+* Download the script file 
+* add it to your startup folder to make it run automatically.
 
 Or
-* Download the .exe file and add it to your startup folder.
+* Download the .exe file 
+* add it to your startup folder.
 
 ### Shortcuts
 * CapsLock + I = ↑
@@ -23,4 +25,6 @@ Or
 * CapsLock + L = →
 * CapsLock + H = Backspace
 * RightAlt = Ctrl
+* RightCtrl = Alt
+
 If you want to suggest a new shortcut please open an issue.
